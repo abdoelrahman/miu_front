@@ -1,218 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>اترك اثر</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اترك اثر</title>
 
-    <div class="container">
-      <div class="navbar-wrapper">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+  <div class="navbar-wrapper">
+
+    <div class="container ">
+      <nav class="navbar navbar-inverse navbar-static-top">
+
         <div class="container">
-          <div class="topHeader">
-            <a href="#"></a>
-            <img src="" alt="">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img class="logo" src="img/log1.PNG" style="padding: 0 10px 0 0; width:40px;length:30px; display: flex;" alt=""></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">اترك اثر</a></li>
+              <li><a href="aboutus.html">عن اترك اثر</a></li>
+              <li><a href="admin/profile/index.html">الصفحه الشخصيه</a></li>
 
-          </div style=";">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">الاقسام <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="sections.html">الكتب</a></li>
+                  <li><a href="sections.html">الاثاث</a></li>
+                  <li><a href="sections.html">الملابس</a></li>
+                  <li><a href="sections.html">ادويه طبيه</a></li>
+                  <li><a href="sections.html">الالكترونات والاجهزة النزليه</a></li>
+                </ul>
+              </li>
 
-            <div class="dropdown">
-                <button class=" dropdown-toggle lan-btn" type="button" data-toggle="dropdown">
-                    <img src="img\globe_network.png">
-                    <span class="caret"></span></button>
-                <ul class="dropdown-menu lan-options">
-                    <li>
-                        <a  class="">العربية</a></li>
-                    <li>
-                        <a class="" >English</a>
-                    </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <img src="img\globe_network.png"> <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a class="">العربية</a></li>
+                  <li>
+                    <a class="">English</a>
+                  </li>
 
                 </ul>
-                <div class="btn btn-info" class="col-md-5 col-sm-5">
-                    <a  class="donation-btn">تبرع الأن </a>
-                </div>
-                <div class="btn btn-info" class="col-md-5 col-sm-5">
-                    <a class="volunteer-btn">تطوع معنا</a>
-                </div>
-
-            </div>
+              </li>
+              <li><a href="#">
+                  <span class="glyphicon glyphicon-log-out pull-lift"></span> تسجيل الخروج
+                </a></li>
+            </ul>
 
           </div>
-
-          <nav class="navbar navbar-inverse navbar-static-top">
-
-            <div class="container">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img class="logo" src="log1.png" alt=""></a>
-              </div>
-              <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">عن اترك اثر</a></li>
-                  <li><a href="#about">تبرع</a></li>
-                  <li><a href="#contact">انضم الينا</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">الاقسام <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="#">الحالات</a></li>
-                      <li><a href="#">البحث عن مفقود</a></li>
-                      <li><a href="#">تبدل اغراض</a></li>
-                      <li><a href="#">طلب استشاره</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-
         </div>
-      </div>
-
-
-      <!-- Carousel
-      ================================================== -->
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      </nav>
+      <!-- ///carousel -->
+      <div id="myCarousel" class="carousel slide" style="margin-bottom: 60px;" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" style="  height: 500px;  background-color: #777;">
           <div class="item active">
-            <img class="first-slide" src="carousel-1.JPG" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>هدفنا  تفعيل مبدأ التعاون </h1>
-                <p>برز المعوقات التي تواجه جمعية المودة لتنمية المجتمع المحلي هي ضعف تواصل المستفيدين مع الجمعية. أهم التوصيات: 1-ضرورة الاهتمام بعمل الندوات الثقافية لتنمية المجتمع المحلي من خلال عقد ندوات ومؤتمرات تهدف لتدريب العاطلين عن العمل على الحرف اليدوية والصناعات الصغيرة والمساعدة في إيجاد وظائف لهم. 2-ضرورة دعم الجهود التطوعية في تنمية المجتمع المحلي من خلال توعية أفراد المجتمع لدور الجمعيات الخيرية في تنمية المجتمع المحلي</p>
-                <p><a class="btn btn-lg btn-warning" href="#" role="button">انضم الينا</a></p>
-              </div>
+            <img src="img/image_3.png" alt="Chania">
+            <div class="carousel-caption">
+              <h3 style="color:#000;">Los AngelesLos AngelesLos AngelesLos AngelesLos Angeles</h3>
+              <p>LA is always so much fun!</p>
             </div>
           </div>
-          <div class="item">
-            <img class="second-slide" src="carousel-2.JPG" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>عمل الجمعية على تقوية روح المشاركة بين أفراد المجتم</h1>
-                <p>برز المعوقات التي تواجه جمعية المودة لتنمية المجتمع المحلي هي ضعف تواصل المستفيدين مع الجمعية. أهم التوصيات: 1-ضرورة الاهتمام بعمل الندوات الثقافية لتنمية المجتمع المحلي من خلال عقد ندوات ومؤتمرات تهدف لتدريب العاطلين عن العمل على الحرف اليدوية والصناعات الصغيرة والمساعدة في إيجاد وظائف لهم. 2-ضرورة دعم الجهود التطوعية في تنمية المجتمع المحلي من خلال توعية أفراد المجتمع لدور الجمعيات الخيرية في تنمية المجتمع المحلي</p>
-                <p><a class="btn btn-lg btn-warning" href="#" role="button">اعرف المزيد</a></p>
-              </div>
+
+          <div class="item" style="  height: 500px;  background-color: #777;">
+            <img src="img/image_1.png" alt="Chicago">
+            <div class="carousel-caption">
+              <h3>Chicago</h3>
+              <p>Thank you, Chicago!</p>
             </div>
           </div>
-          <div class="item">
-            <img class="third-slide" src="carousel-3.jpg" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>التعرف على مجالات العمل الخير</h1>
-                <p>برز المعوقات التي تواجه جمعية المودة لتنمية المجتمع المحلي هي ضعف تواصل المستفيدين مع الجمعية. أهم التوصيات: 1-ضرورة الاهتمام بعمل الندوات الثقافية لتنمية المجتمع المحلي من خلال عقد ندوات ومؤتمرات تهدف لتدريب العاطلين عن العمل على الحرف اليدوية والصناعات الصغيرة والمساعدة في إيجاد وظائف لهم. 2-ضرورة دعم الجهود التطوعية في تنمية المجتمع المحلي من خلال توعية أفراد المجتمع لدور الجمعيات الخيرية في تنمية المجتمع المحلي</p>
-                <p><a class="btn btn-lg btn-warning" href="#" role="button">انضم الينا</a></p>
-              </div>
+
+          <div class="item" style="  height: 500px;  background-color: #777;">
+            <img src="img/image_2.png" alt="New York">
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
             </div>
           </div>
         </div>
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div><!-- /.carousel -->
+      </div>
 
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-
-      <div class="container marketing">
-
-        <!-- Three columns of text below the carousel -->
+      <!-- consal/////////////////////////////////////// -->
+      <div class="container">
+        <h1 class="text-center" style="color:#666;">الاقسام</h1>
         <div class="row">
-          <div class="col-lg-4">
-            <img class="img-circle" src="av1.png" alt="Generic placeholder image" width="140" height="140">
-            <h2>عبد الرحمن محمد</h2>
-            <p>برز المعوقات التي تواجه جمعية المودة لتنمية المجتمع المحلي هي ضعف تواصل المستفيدين مع الجمعية. أهم التوصيات: 1-ضرورة الاهتمام بعمل الندوات الثقافية لتنمية المجتمع المحلي من خلال عقد ندوات ومؤتمرات تهدف لتدريب العاطلين عن العمل على الحرف اليدوية والصناعات الصغيرة والمساعدة في إيجاد وظائف لهم. 2-ضرورة دعم الجهود التطوعية في تنمية المجتمع المحلي من خلال توعية أفراد المجتمع لدور الجمعيات الخيرية في تنمية المجتمع المحلي</p>
-            <p><a class="btn btn-default" href="#" role="button">تقاصيل &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="img-circle" src="av2.png" alt="Generic placeholder image" width="140" height="140">
-            <h2>عبد الرحمن  </h2>
-            <p>برز المعوقات التي تواجه جمعية المودة لتنمية المجتمع المحلي هي ضعف تواصل المستفيدين مع الجمعية. أهم التوصيات: 1-ضرورة الاهتمام بعمل الندوات الثقافية لتنمية المجتمع المحلي من خلال عقد ندوات ومؤتمرات تهدف لتدريب العاطلين عن العمل على الحرف اليدوية والصناعات الصغيرة والمساعدة في إيجاد وظائف لهم. 2-ضرورة دعم الجهود التطوعية في تنمية المجتمع المحلي من خلال توعية أفراد المجتمع لدور الجمعيات الخيرية في تنمية المجتمع المحلي</p>
-            <p><a class="btn btn-default" href="#" role="button">تفاصيل &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="img-circle" src="av3.png" alt="Generic placeholder image" width="140" height="140">
-            <h2> عبدالرحمن الدبه</h2>
-            <p>برز المعوقات التي تواجه جمعية المودة لتنمية المجتمع المحلي هي ضعف تواصل المستفيدين مع الجمعية. أهم التوصيات: 1-ضرورة الاهتمام بعمل الندوات الثقافية لتنمية المجتمع المحلي من خلال عقد ندوات ومؤتمرات تهدف لتدريب العاطلين عن العمل على الحرف اليدوية والصناعات الصغيرة والمساعدة في إيجاد وظائف لهم. 2-ضرورة دعم الجهود التطوعية في تنمية المجتمع المحلي من خلال توعية أفراد المجتمع لدور الجمعيات الخيرية في تنمية المجتمع المحلي</p>
-            <p><a class="btn btn-default" href="#" role="button">تفاصيل &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">رؤيتنا </h2>
-            <p class="lead">يوجد الكثير من الجمعيات الخيرية التي تنتشر في جميع أنحاء العالم، ويعرف من اسمها انها قد أنشئت لفعل الخير للناس، فمن أهم مساعيها مساعدة المحتاجين ونشر الخير بينهم. وليتمكن القائمون على هذه الجمعيات من تقديم أكبر قدر ممكن من المساعدة عليهم معرفة الأهداف الحقيقية لها، فبعض المسؤولين عنها يعتقدون بأنَ الغرض من إنشائها هو جمع المبالغ المالية فقط بدون مساعدة الآخرين. سنستعرك اليك مقال عن الجمعيات الخيرية.</p>
+          <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/c1.jpg	);" class="image-grid-cover">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="#" class="cover-wrapper">كتب</a>
+            </div>
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" src="carousel-1.JPG" alt="Generic placeholder image">
+          <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/c0.jpg	);" class="entry-cover image-grid-cover has-image">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="#" class="cover-wrapper">تسجيل</a>
+            </div>
           </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">مهمتنا </h2>
-            <p class="lead">يوجد الكثير من الجمعيات الخيرية التي تنتشر في جميع أنحاء العالم، ويعرف من اسمها انها قد أنشئت لفعل الخير للناس، فمن أهم مساعيها مساعدة المحتاجين ونشر الخير بينهم. وليتمكن القائمون على هذه الجمعيات من تقديم أكبر قدر ممكن من المساعدة عليهم معرفة الأهداف الحقيقية لها، فبعض المسؤولين عنها يعتقدون بأنَ الغرض من إنشائها هو جمع المبالغ المالية فقط بدون مساعدة الآخرين. سنستعرك اليك مقال عن الجمعيات الخيرية.</p>
+          <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/c2.jpg	);" class="entry-cover image-grid-cover has-image">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="#" class="cover-wrapper"> الاثاث</a>
+            </div>
           </div>
-          <div class="col-md-5 col-md-pull-7">
-            <img class="featurette-image img-responsive center-block"   src="carousel-3.JPG" alt="Generic placeholder image">
+          <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/c3.jpg);" class="entry-cover image-grid-cover has-image">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="#" class="cover-wrapper">الملابس</a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/c4.jpg	);" class="entry-cover image-grid-cover has-image">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="#" class="cover-wrapper">الادويه</a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/c5.jpg	);" class="entry-cover image-grid-cover has-image">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="#" class="cover-wrapper">الكترونيات وأجهزة منزلية </a>
+            </div>
           </div>
         </div>
+      </div>
 
-        <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">قصتنا </h2>
-            <p class="lead">يوجد الكثير من الجمعيات الخيرية التي تنتشر في جميع أنحاء العالم، ويعرف من اسمها انها قد أنشئت لفعل الخير للناس، فمن أهم مساعيها مساعدة المحتاجين ونشر الخير بينهم. وليتمكن القائمون على هذه الجمعيات من تقديم أكبر قدر ممكن من المساعدة عليهم معرفة الأهداف الحقيقية لها، فبعض المسؤولين عنها يعتقدون بأنَ الغرض من إنشائها هو جمع المبالغ المالية فقط بدون مساعدة الآخرين. سنستعرك اليك مقال عن الجمعيات الخيرية.</p>
+
+
+      <!-- ///////////////////////////////////// -->
+
+      <!-- /////////////////////////////////////// post-->
+      <div class="page-header">
+        <h1 style="color:#666;text-align: center;">اخر المنشورات</h1>
+      </div>
+      <div class=" mar">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 col-centered">
+
+            <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="carousel-col">
+                    <div class="block yellow img-responsive"><img class="logo" src="img/p1.jpg" style="width:100%;height:100%;"></div>
+                    <h4 class="card-title">ثلاثية غرناطه</h4>
+                    <i class="	glyphicon glyphicon-user"></i><a> عبدالرحمن</a>
+                    <p class="card-text">للبيع شقة ارضي بحديقة خاصة بكمبوند بانوراما الشروق خلف الشروق 2000 دقيقة من طريق الشروق الرئيسى سور الكمباوند عبارة عن مول فيه كل الخدمات</p>
+                    <p class="card-text"><i class="fa fa-clock-o"></i><small class="text-muted">2012/2</small></p>
+                    <button type="button" class="btn btn-default btn-disable"><a href='product.html'>عرض</a></button>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="carousel-col">
+                    <div class="block yellow img-responsive"><img class="logo" src="img/p0.jpg" style="width:100%;height:100%;"></div>
+                    <h4 class="card-title">ثلاثية غرناطه</h4>
+                    <i class="	glyphicon glyphicon-user"></i><a> عبدالرحمن</a>
+                    <p class="card-text">
+                      <p class="card-text">للبيع شقة ارضي بحديقة خاصة بكمبوند بانوراما الشروق خلف الشروق 2000 دقيقة من طريق الشروق الرئيسى سور الكمباوند عبارة عن مول فيه كل الخدمات</p>
+                      <p class="card-text"><i class="fa fa-clock-o"></i><small class="text-muted">2012/2</small></p>
+                      <button type="button" class="btn btn-default btn-disable"><a href='product.html'>عرض</a></button>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="carousel-col">
+                    <div class="block yellow img-responsive"><img class="logo" src="img/p2.jpg" style="width:100%;height:100%;"></div>
+                    <h4 class="card-title">ثلاثية غرناطه</h4>
+                    <i class="	glyphicon glyphicon-user"></i><a> عبدالرحمن</a>
+                    <p class="card-text">للبيع شقة ارضي بحديقة خاصة بكمبوند بانوراما الشروق خلف الشروق 2000 دقيقة من طريق الشروق الرئيسى سور الكمباوند عبارة عن مول فيه كل الخدمات</p>
+                    <p class="card-text"><i class="fa fa-clock-o"></i><small class="text-muted">2012/2</small></p>
+                    <button type="button" class="btn btn-default btn-disable"><a href='product.html'>عرض</a></button>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="carousel-col">
+                    <div class="block yellow img-responsive"><img class="logo" src="img/p2.jpg" style="width:100%;height:100%;"></div>
+                    <h4 class="card-title">ثلاثية غرناطه</h4>
+                    <i class="	glyphicon glyphicon-user"></i><a> عبدالرحمن</a>
+                    <p class="card-text">للبيع شقة ارضي بحديقة خاصة بكمبوند بانوراما الشروق خلف الشروق 2000 دقيقة من طريق الشروق الرئيسى سور الكمباوند عبارة عن مول فيه كل الخدمات</p>
+                    <p class="card-text"><i class="fa fa-clock-o"></i><small class="text-muted">2012/2</small></p>
+                    <button type="button" class="btn btn-default btn-disable"><a href='product.html'>عرض</a></button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <div class="left carousel-control">
+                <a href="#carousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </div>
+              <div class="right carousel-control">
+                <a href="#carousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" src="carousel-2.JPG" alt="Generic placeholder image">
+
+          <!-- ////////////////////////////////////////////////////////////////////////// -->
+          <div class="counter" style="background-image: url(img/c0.jpg); background-repeat: no-repeat;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+            <div class="page-header ">
+              <h1 style="color:#666;text-align: center;">احصاءيات الموقع</h1>
+            </div>
+            <div class="container mar">
+
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div class="employees ">
+
+                    <p class="counter-count ">879</p>
+                    <p class="employee-p">المستخدمين</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div class="customer">
+                    <p class="counter-count">954</p>
+                    <p class="customer-p">المعروضات</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div class="design">
+                    <p class="counter-count">1050</p>
+                    <p class="design-p">الزيارات</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div class="order">
+                    <p class="counter-count">652</p>
+                    <p class="order-p">ساعات الزيارة</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
+
         </div>
 
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-
-
-        <!-- FOOTER -->
-        <footer>
-          <p class="pull-right"><a href="#">Back to top</a></p>
-          <p>&copy; 2020abdelra Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-        </footer>
-
-      </div><!-- /.container -->
-
-
+        <hr>
+        <hr>
+      </div>
     </div>
+
+    <!-- footer////////////////// --> -->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section about ">
+          <h1 class="logo-text"><span>اترك</span> اثر</h1>
+          <p>
+            موقعنا هوا موقع غير هادف للربح الغرد منه
+            تسهيل تقديم المساعدة إلى الشخص الذي يحتاج حقًا إلى المساعدة ، وسيوفر موقعنا الإلكتروني هذه العملية بأسهل الطرق وأفضلها تنظيمًا.
+          </p>
+
+
+          <div class="contact">
+            <i class="fa fa-phone"> &nbsp; 123-456-789</i>
+            <i class="fa fa-envelope"> &nbsp; abdo55mohamed1@gmail.com</i>
+          </div>
+
+          <div class="social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+          </div>
+
+        </div>
+
+        <div class="footer-section quick-links">
+          <h2>الاقسام </h2>
+          <ul>
+            <a href="#">
+              <li>الكتب </li>
+            </a>
+            <a href="#">
+              <li>الادويه</li>
+            </a>
+            <a href="#">
+              <li>ملابس</li>
+            </a>
+            <a href="#">
+              <li>ادوات</li>
+            </a>
+            <a href="#">
+              <li>اخري</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="footer-section contact-form-div">
+          <h2>اتصل بنا</h2>
+          <br>
+          <form action="index.php" method="post">
+            <input type="text" name="email-address" class="text-input contact-input" placeholder="Your email address">
+            <textarea name="message" cols="30" rows="3" class="text-input contact-input" placeholder="Message..."></textarea>
+            <button type="submit" name="send-msg-btn" class="send-msg-btn">
+              <i class="fa fa-send"></i> ارسال
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© Coding Poets | Designed by miu software5</p>
+      </div>
+    </div>
+    <!-- // FOOTER -->
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -220,5 +361,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 
-  </body>
+</body>
+
 </html>

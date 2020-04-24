@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اترك اثر</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/bootstrap-rtl.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/header.css">
+  <link rel="stylesheet" href="../../css/profile.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-static-top">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="logo" src="../../img/log1.PNG" style="padding: 0 10px 0 0; width:40px;length:30px; display: flex;" alt=""></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../../index">اترك اثر</a></li>
+            <li ><a href="../../aboutus.html">عن اترك اثر</a></li>
+            <li class="active"><a href="admin/profile/index.html">الصفحه الشخصيه</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">الاقسام <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="sections.html">الكتب</a></li>
+                  <li><a href="sections.html">الاثاث</a></li>
+                  <li><a href="sections.html">الملابس</a></li>
+                  <li><a href="sections.html">ادويه طبيه</a></li>
+                  <li><a href="sections.html">الالكترونات والاجهزة النزليه</a></li>
+                </ul>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <img src="../../img\globe_network.png"> <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a class="">العربية</a></li>
+                <li>
+                  <a class="">English</a>
+                </li>
+
+              </ul>
+            </li>
+            <li ><a href="#" >
+          <span class="glyphicon glyphicon-log-out pull-lift"></span> تسجيل الخروج
+        </a></li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!-- // header -->
+
+    <div class="admin-wrapper clearfix">
+      <!-- Left Sidebar -->
+      <div class="left-sidebar">
+        <ul>
+          <li><a href="../profile/index.html">الصقحه الشخصيه</a></li>
+          <li><a href="../Message/html">الرسأل</a></li>
+          <li><a href="index.html">المنشورات</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- // Left Sidebar -->
+
+    <!-- Admin Content -->
+    <div class="admin-content clearfix">
+
+      <div class="">
+        <h2 style="text-align: center;">عدل منشور</h2>
+
+        <form action="create.php" method="post">
+          <div class="input-group">
+            <label>اسم المعرض</label>
+            <input type="text" name="title" class="text-input">
+          </div>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+            </div>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile01"
+                aria-describedby="inputGroupFileAddon01">
+              <label class="custom-file-label" for="inputGroupFile01">اختار صوره</label>
+            </div>
+          </div>
+          <div class="input-group">
+            <label>وصف المعروض</label>
+            <textarea class="text-input" name="body" id="body"></textarea>
+          </div>
+          <div class="input-group">
+            <label>القسم</label>
+            <select class="text-input" name="topic">
+              <option></option>
+              <option>الكتب</option>
+              <option>الادويه</option>
+              <option>الملابس</option>
+              <option>الاثات والادوات</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label>
+              <input type="checkbox" name="publish" /> نشر
+            </label>
+          </div>
+          <div class="input-group">
+            <button type="submit" name="update-post" class="btn" >عدل </button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <!-- // Admin Content -->
+
+  </div>
+
+
+  <!-- JQuery -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  <script src="../../js/main.js"></script>
+
+</body>
+
+</html>

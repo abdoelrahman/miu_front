@@ -1,329 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>اترك اثر</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/sections.css">
-  </head>
-  <body>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اترك اثر</title>
 
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="logo" src="img/log1.PNG" style="padding: 0 10px 0 0; width:40px;length:30px; display: flex;" alt=""></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">اترك اثر</a></li>
+            <li><a href="aboutus.html">عن اترك اثر</a></li>
+            <li><a href="admin/profile/index.html">الصفحه الشخصيه</a></li>
+
+            <li class=" active dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">الاقسام <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="sections.html">الكتب</a></li>
+                <li><a href="sections.html">الاثاث</a></li>
+                <li><a href="sections.html">الملابس</a></li>
+                <li><a href="sections.html">ادويه طبيه</a></li>
+                <li><a href="sections.html">الالكترونات والاجهزة النزليه</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <img src="img\globe_network.png"> <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a class="">العربية</a></li>
+                <li>
+                  <a class="">English</a>
+                </li>
+
+              </ul>
+            </li>
+            <li><a href="#" >
+                <span class="glyphicon glyphicon-log-out  "></span> تسجيل الخروج
+              </a></li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!-- /////////search -->
+
+    <!--end of col-->
+    <header class="jumbotron my-4">
+      <h1 class="display-3">الكتب</h1>
+      <p class="lead">يمكنكم التبرع ومشاركة كتبكم مع جمهور كبير من قراء الكتب العربيةاو الاجنبيه.</p>
+      <a href="signup.html" class="btn btn-primary btn-md  "style=" background-color: #ff9f1a;">سجل الان</a>
+      <div class="container h-100">
+
+      </div>
+    </header>
     <div class="container">
-        <a class="navbar-brand" href="index.html">Simple Ecommerce</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
-            <ul class="navbar-nav m-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="category.html">Categories <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="product.html">Product</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cart.html">Cart</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-
-            <form class="form-inline my-2 my-lg-0">
-                <div class="input-group input-group-sm">
-                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Search...">
-                    <div class="input-group-append">
-                        <button type="button" class="btn btn-secondary btn-number">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </div>
-                </div>
-                <a class="btn btn-success btn-sm ml-3" href="cart.html">
-                    <i class="fa fa-shopping-cart"></i> Cart
-                    <span class="badge badge-light">3</span>
-                </a>
-            </form>
+      <div class="row">
+        <div class="search">
+          <input type="text" class="form-control input-sm" maxlength="64" placeholder="Search" />
+          <button type="submit" class="btn bt btn-primary btn-sm">البحث</button>
         </div>
+      </div>
     </div>
-</nav>
-<section class="jumbotron text-center">
+    <hr>
     <div class="container">
-        <h1 class="jumbotron-heading">E-COMMERCE CATEGORY</h1>
-        <p class="lead text-muted mb-0">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte...</p>
-    </div>
-</section>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="category.html">Category</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Sub-category</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-sm-3">
-            <div class="card bg-light mb-3">
-                <div class="card-header bg-primary text-white text-uppercase"><i class="fa fa-list"></i> Categories</div>
-                <ul class="list-group category_block">
-                    <li class="list-group-item"><a href="category.html">Cras justo odio</a></li>
-                    <li class="list-group-item"><a href="category.html">Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a href="category.html">Morbi leo risus</a></li>
-                    <li class="list-group-item"><a href="category.html">Porta ac consectetur ac</a></li>
-                    <li class="list-group-item"><a href="category.html">Vestibulum at eros</a></li>
-                </ul>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <div class="product border">
+            <div class="product-img">
+              <img src="img/p0.jpg">
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                          <div class="thumbnail">
-                            <img src="http://tech.firstpost.com/wp-content/uploads/2014/09/Apple_iPhone6_Reuters.jpg" alt="" class="img-responsive">
-                            <div class="caption">
-                              <h4 class="pull-right">$700.99</h4>
-                              <h4><a href="#">Mobile Product</a></h4>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            </div>
-                            <div class="ratings">
-                              <p>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                 (15 reviews)
-                              </p>
-                            </div>
-                            <div class="space-ten"></div>
-                            <div class="btn-ground text-center">
-                                <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                            </div>
-                            <div class="space-ten"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="thumbnail">
-                            <img src="http://tech.firstpost.com/wp-content/uploads/2014/09/Apple_iPhone6_Reuters.jpg" alt="" class="img-responsive">
-                            <div class="caption">
-                              <h4 class="pull-right">$700.99</h4>
-                              <h4><a href="#">Mobile Product</a></h4>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            </div>
-                            <div class="ratings">
-                              <p>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                 (15 reviews)
-                              </p>
-                            </div>
-                            <div class="space-ten"></div>
-                            <div class="btn-ground text-center">
-                                <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                            </div>
-                            <div class="space-ten"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="thumbnail">
-                            <img src="http://tech.firstpost.com/wp-content/uploads/2014/09/Apple_iPhone6_Reuters.jpg" alt="" class="img-responsive">
-                            <div class="caption">
-                              <h4 class="pull-right">$700.99</h4>
-                              <h4><a href=  "#">Mobile Product</a></h4>
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            </div>
-                            <div class="ratings">
-                              <p>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                 (15 reviews)
-                              </p>
-                            </div>
-                            <div class="space-ten"></div>
-                            <div class="btn-ground text-center">
-                                <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                            </div>
-                            <div class="space-ten"></div>
-                          </div>
-                        </div>
+            <div class="product-block">
+              <h4>ثلاثية غرناطة</h4>
+              <p>تدور الأحداث في مملكة غرناطة بعد سقوط جميع الممالك الإسلامية في الأندلس و تبدأ أحداث الثلاثية في عام 1491م وهو العام الذي سقطت فيه غرناطة بإعلان المعاهدة التي تنازل بمقتضاها (أبو عبد ال</p>
+              <div class="rating-block">
+                <h5>تقيم الناشر</h5>
+                <h4 class="bold padding-bottom-7">4.3 <small>/ 5</small></h4>
+              </div>
+              <ul class="list-inline ">
+                <li class="list-inline-item"><i class="fa fa-clock-o"></i> 2010</li>
+                <li class="list-inline-item"><i class="	glyphicon glyphicon-user"></i><a> abdelrahman</a></li>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <div class="row">
+                <div class="col-md-6">
+                  <button type="button" class="btn btn-default btn-disable">عرض</button>
                 </div>
-            </div>
-            <div class="modal fade product_view" id="product_view">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
-                            <h3 class="modal-title">HTML5 is a markup language</h3>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-                                <div class="col-md-6 product_img">
-                                    <img src="http://img.bbystatic.com/BestBuy_US/images/products/5613/5613060_sd.jpg" class="img-responsive">
-                                </div>
-                                <div class="col-md-6 product_content">
-                                    <h4>Product Id: <span>51526</span></h4>
-                                    <div class="rating">
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        (10 reviews)
-                                    </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                    <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-6 col-xs-12">
-                                            <select class="form-control" name="select">
-                                                <option value="" selected="">Color</option>
-                                                <option value="black">Black</option>
-                                                <option value="white">White</option>
-                                                <option value="gold">Gold</option>
-                                                <option value="rose gold">Rose Gold</option>
-                                            </select>
-                                        </div>
-                                        <!-- end col -->
-                                        <div class="col-md-4 col-sm-6 col-xs-12">
-                                            <select class="form-control" name="select">
-                                                <option value="">Capacity</option>
-                                                <option value="">16GB</option>
-                                                <option value="">32GB</option>
-                                                <option value="">64GB</option>
-                                                <option value="">128GB</option>
-                                            </select>
-                                        </div>
-                                        <!-- end col -->
-                                        <div class="col-md-4 col-sm-12">
-                                            <select class="form-control" name="select">
-                                                <option value="" selected="">QTY</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                            </select>
-                                        </div>
-                                        <!-- end col -->
-                                    </div>
-                                    <div class="space-ten"></div>
-                                    <div class="btn-ground">
-                                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
-                                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <div class="col-md-6">
+                  <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
 
-                <div class="col-12">
-                    <nav aria-label="...">
-                        <ul class="pagination">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1">Previous</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active">
-                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
+              </div>
             </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product border">
+            <div class="product-img">
+              <img src="img/p1.jpg">
+            </div>
+            <div class="product-block">
+              <h4>ثلاثية غرناطة </h4>
+              <p>لاثية غرناطة هي ثلاثية روائية تتكون من ثلاث روايات للكاتبة المصرية رضوى عاشور و هم على التوالي: غرناطة - مريمة - الرحيل.</p>
+              <div class="rating-block">
+                <h5>تقيم الناشر</h5>
+                <h4 class="bold padding-bottom-7">4.3 <small>/ 5</small></h4>
+
+              </div>
+              <ul class="list-inline ">
+                <li class="list-inline-item"><i class="fa fa-clock-o"></i> 2010</li>
+                <li class="list-inline-item"><i class="	glyphicon glyphicon-user"></i><a> abdelrahman</a></li>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <div class="row">
+                <div class="col-md-6">
+                  <button type="button" class="btn btn-default btn-disable">عرض</button>
+                </div>
+                <div class="col-md-6">
+                  <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product border">
+            <div class="product-img">
+              <img src="img/p2.jpg">
+            </div>
+            <div class="product-block">
+              <h4>ثلاثية غرناطة </h4>
+              <p>لاثية غرناطة هي ثلاثية روائية تتكون من ثلاث روايات للكاتبة المصرية رضوى عاشور و هم على التوالي: غرناطة - مريمة - الرحيل.</p>
+              <div class="rating-block">
+                <h5>تقيم الناشر</h5>
+                <h4 class="bold padding-bottom-7">4.3 <small>/ 5</small></h4>
+              </div>
+              <ul class="list-inline ">
+                <li class="list-inline-item"><i class="fa fa-clock-o"></i> 2010</li>
+                <li class="list-inline-item"><i class="	glyphicon glyphicon-user"></i><a> abdelrahman</a></li>
+
+              </ul>
+            </div>
+            <div class="product-footer">
+              <div class="row">
+                <div class="col-md-6">
+                  <button type="button" class="btn btn-default btn-disable">عرض</button>
+                </div>
+                <div class="col-md-6">
+                    <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  </div>
+  </section>
+
+
+
+
+  <!-- //////////////////pager -->
+  <ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+
+
+  </div>
+  </div>
+  </section>
+
+  <!-- Page Features -->
+
+  </div>
+
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-section about ">
+        <h1 class="logo-text"><span>اترك</span> اثر</h1>
+        <p>
+          موقعنا هوا موقع غير هادف للربح الغرد منه
+          تسهيل تقديم المساعدة إلى الشخص الذي يحتاج حقًا إلى المساعدة ، وسيوفر موقعنا الإلكتروني هذه العملية بأسهل الطرق وأفضلها تنظيمًا.
+        </p>
+
+
+        <div class="contact">
+          <i class="fa fa-phone"> &nbsp; 123-456-789</i>
+          <i class="fa fa-envelope"> &nbsp; abdo55mohamed1@gmail.com</i>
         </div>
 
-    </div>
-</div>
-
-<!-- Footer -->
-<footer class="text-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-lg-4 col-xl-3">
-                <h5>About</h5>
-                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                <p class="mb-0">
-                    Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
-                </p>
-            </div>
-
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
-                <h5>Informations</h5>
-                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                <ul class="list-unstyled">
-                    <li><a href="">Link 1</a></li>
-                    <li><a href="">Link 2</a></li>
-                    <li><a href="">Link 3</a></li>
-                    <li><a href="">Link 4</a></li>
-                </ul>
-            </div>
-
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                <h5>Others links</h5>
-                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                <ul class="list-unstyled">
-                    <li><a href="">Link 1</a></li>
-                    <li><a href="">Link 2</a></li>
-                    <li><a href="">Link 3</a></li>
-                    <li><a href="">Link 4</a></li>
-                </ul>
-            </div>
-
-            <div class="col-md-4 col-lg-3 col-xl-3">
-                <h5>Contact</h5>
-                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                <ul class="list-unstyled">
-                    <li><i class="fa fa-home mr-2"></i> My company</li>
-                    <li><i class="fa fa-envelope mr-2"></i> email@example.com</li>
-                    <li><i class="fa fa-phone mr-2"></i> + 33 12 14 15 16</li>
-                    <li><i class="fa fa-print mr-2"></i> + 33 12 14 15 16</li>
-                </ul>
-            </div>
-            <div class="col-12 copyright mt-3">
-                <p class="float-left">
-                    <a href="#">Back to top</a>
-                </p>
-                <p class="text-right text-muted">created with <i class="fa fa-heart"></i> by <a href=""><i>t-php</i></a> | <span>v. 1.0</span></p>
-            </div>
+        <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-youtube-play"></i></a>
         </div>
+
+      </div>
+
+      <div class="footer-section quick-links">
+        <h2>الاقسام </h2>
+        <ul>
+          <a href="#">
+            <li>الكتب </li>
+          </a>
+          <a href="#">
+            <li>الاثاث</li>
+          </a>
+          <a href="#">
+            <li>ملابس</li>
+          </a>
+          <a href="#">
+            <li>ادوات طبيه</li>
+          </a>
+          <a href="#">
+            <li>الالكترونيات واجهزه منزليه</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="footer-section contact-form-div">
+        <h2>اتصل بنا</h2>
+        <br>
+        <form action="index.php" method="post">
+          <input type="text" name="email-address" class="text-input contact-input" placeholder="Your email address">
+          <textarea name="message" cols="30" rows="3" class="text-input contact-input" placeholder="Message..."></textarea>
+          <button type="submit" name="send-msg-btn" class="send-msg-btn">
+            <i class="fa fa-send"></i> ارسال
+          </button>
+        </form>
+      </div>
+
     </div>
-</footer>
-    <!-- Product row -->
 
-<!------ Include the above in your HEAD tag ---------->
+    <div class="footer-bottom">
+      <p>© Coding Poets | Designed by miu software5</p>
+    </div>
+  </div>
+  <!-- // FOOTER -->
 
 
-    <!-- end Product row -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -332,4 +285,5 @@
   <script src="js/main.js"></script>
 
 </body>
+
 </html>

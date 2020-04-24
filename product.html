@@ -1,74 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>اترك اثر</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/product.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اترك اثر</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="logo" src="img/log1.PNG" style="padding: 0 10px 0 0; width:40px;length:30px; display: flex;" alt=""></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">اترك اثر</a></li>
+            <li><a href="aboutus.html">عن اترك اثر</a></li>
+            <li><a href="admin/profile/index.html">الصفحه الشخصيه</a></li>
+
+            <li class=" active dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">الاقسام <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="sections.html">الكتب</a></li>
+                <li><a href="sections.html">الاثاث</a></li>
+                <li><a href="sections.html">الملابس</a></li>
+                <li><a href="sections.html">ادويه طبيه</a></li>
+                <li><a href="sections.html">الالكترونات والاجهزة النزليه</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <img src="img\globe_network.png"> <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a class="">العربية</a></li>
+                <li>
+                  <a class="">English</a>
+                </li>
+
+              </ul>
+            </li>
+            <li><a href="#" class="btn btn-info btn-lg">
+                <span class="glyphicon glyphicon-log-out  "></span> تسجيل الخروج
+              </a></li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
     <div class="container">
-		<div class="card">
-			<div class="container-fliud">
-				<div class="wrapper row">
-					<div class="preview col-md-6">
+      <div class="card">
+        <div class="container-fliud">
+          <div class="wrapper row">
+            <div class="preview col-md-6">
 
-						<div class="preview-pic tab-content">
-						  <div class="tab-pane active" id="pic-1"><img src="http://placekitten.com/400/252" /></div>
-						  <div class="tab-pane" id="pic-2"><img src="http://placekitten.com/400/252" /></div>
-						  <div class="tab-pane" id="pic-3"><img src="http://placekitten.com/400/252" /></div>
-						  <div class="tab-pane" id="pic-4"><img src="http://placekitten.com/400/252" /></div>
-						  <div class="tab-pane" id="pic-5"><img src="http://placekitten.com/400/252" /></div>
-						</div>
-						<ul class="preview-thumbnail nav nav-tabs">
-						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-						  <li><a data-target="#pic-2" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-						  <li><a data-target="#pic-3" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-						  <li><a data-target="#pic-4" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-						  <li><a data-target="#pic-5" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-						</ul>
+              <div class="preview-pic tab-content">
+                <div class="tab-pane active" id="pic-1"><img src="img/p2.jpg" /></div>
+                <div class="tab-pane" id="pic-2"><img src="img/p1.jpg" /></div>
+                <div class="tab-pane" id="pic-3"><img src="img/p0.jpg" /></div>
 
-					</div>
-					<div class="details col-md-6">
-						<h3 class="product-title">men's shoes fashion</h3>
-						<div class="rating">
-							<div class="stars">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-							</div>
-							<span class="review-no">41 reviews</span>
-						</div>
-						<p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
-						<h4 class="price">current price: <span>$180</span></h4>
-						<p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
-						<h5 class="sizes">sizes:
-							<span class="size" data-toggle="tooltip" title="small">s</span>
-							<span class="size" data-toggle="tooltip" title="medium">m</span>
-							<span class="size" data-toggle="tooltip" title="large">l</span>
-							<span class="size" data-toggle="tooltip" title="xtra large">xl</span>
-						</h5>
-						<h5 class="colors">colors:
-							<span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span>
-							<span class="color green"></span>
-							<span class="color blue"></span>
-						</h5>
-						<div class="action">
-							<button class="add-to-cart btn btn-default" type="button">add to cart</button>
-							<button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+              </div>
+              <ul class="preview-thumbnail nav nav-tabs">
+                <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="img/p2.jpg" /></a></li>
+                <li><a data-target="#pic-2" data-toggle="tab"><img src="img/p1.jpg" /></a></li>
+                <li><a data-target="#pic-3" data-toggle="tab"><img src="img/p0.jpg" /></a></li>
+
+              </ul>
+
+            </div>
+            <div class="details col-md-6">
+              <h3 class="product-title">ثلاثية غرناطه</h3>
+              <div class="list-inline-item"><i class="	glyphicon glyphicon-user"></i><a> عبدالرحمن</a><div>
+              <div class="rating">
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <span class="review-no">41 مراجعة</span>
+              </div>
+
+              <p class="product-description"> في وحشة سجنك ترى أحبابك أكثر، لأن في الوقت متسعًا، ولأنهم يأتونك حدبا في محنتك، ويتركون لك أن تتملى وجوههم ما شئت وإن طال تأملك ". رواية ثلاثية غرناطة هي ثلاثية روائية تتكون من ثلاث روايات للكاتبة المصرية رضوى عاشور و هم على التوالي : غرناطة مريمة الرحيل و تدور الأحداث في مملكة غرناطة بعد سقوط جميع الممالك الإسلامية في الأندلس، و تبدأ أحداث الثلاثية في عام 1491 و هو العام الذي سقطت فيه غرناطة بإعلان المعاهدة التي تنازل بمقتضاها أبو عبد الله محمد الصغير آخر ملوك غرناطة عن ملكه لملكي قشتالة.</p>
+              <h4 class="price">رقم الهاتف: <span>01096544830</span></div>
+              <div class="list-inline-item"><i class="fa fa-clock-o"></i> 2010</div>
+                <hr>
+              <div class="action">
+                <button class="add-to-cart btn btn-default" type="button"><a href="admin/message/index.html">مراسلة الناشر</a></button>
+                <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+    <div class="footer-bottom">
+      <p>© Coding Poets | Designed by miu software5</p>
+    </div>
+  </div>
+  <!-- // FOOTER -->
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -77,4 +137,5 @@
   <script src="js/main.js"></script>
 
 </body>
+
 </html>
