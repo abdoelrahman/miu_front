@@ -71,3 +71,9 @@
 .product-footer {background:#f4f4f4;border-top:1px solid #ccc;padding:10px 15px 15px 10px}
 .divider {border: 1px solid #ccc;}
 .title-links ul {margin-bottom:10px; margin-top:10px;}
+
+.pager>li>a{
+  background-color: #ff9f1a ;
+  border-radius:0px;
+
+}

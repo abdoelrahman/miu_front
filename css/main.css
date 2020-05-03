@@ -25,10 +25,7 @@
 }
 
 /* Declare heights because of positioning of img element */
-/* .carousel .item {
-  height: 500px;
-  background-color: #777;
-} */
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
@@ -37,8 +34,9 @@
   height: 500px;
 }
 
-
-
+.wh{
+  color:#fff;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -77,7 +75,38 @@
 .carousel-inner>.item>img{
   width:100%;
 }
+.header-text h2 {
+    font-size: 40px;
+}
 
+.header-text h2 span {
+    background-color: #fff;
+	padding: 10px;
+}
+
+.header-text h3 span {
+	background-color: #000;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+  font-size:15px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
 
 /* ///num////////////////////////////////////////////////////// ظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظظ*/
 .counter
@@ -155,16 +184,17 @@
     float: left;
  }
  .glyphicon-chevron-right:before {
-    color: #666;
+    color: #ff9f1a;
+    opacity:.4;
 }
 .glyphicon-chevron-left:before {
     content: "\e079";
-    color: #666;
+    color: #ff9f1a;
+    opacity:.4;
 }
 
-
- .active > div { display:none; }
- .active > div:first-child { display:block; }
+ .ls>.active > div { display:none; }
+ .ls>.active > div:first-child { display:block; }
 
 /*xs*/
 @media (max-width: 767px) {
